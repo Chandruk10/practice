@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<input type="text" id="inputtext" placeholder="Enter the Number">-->
+    <!--<input type="password" id="inputpassword" placeholder="Enter the password">-->
+    <input type="url" placeholder="Enter the url">
+    <input type="button" value="Enter" onclick="showoutput()">
+    <P id="output"></P>
+
+    <p id="inputtext">click the button</p>
+    <button></button>
+
+    <script>
+        function showoutput(){
+            var input=document.getElementById("inputpassword").value; 
+            document.getElementById("output").textContent="you enter :"+ input;
+        }
+    </script>
+    
+</body>
+</html>

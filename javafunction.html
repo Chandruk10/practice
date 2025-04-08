@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Types Example</title>
+
+</head>
+
+<body>
+    <h2>HTML Input Types Example</h2>
+    <label>Name:</label>
+    <input type="text" id="txtName" placeholder="Enter text"><br><br>
+
+    <label>Department</label>
+    <select id="drpdept">
+        <option>Medical</option>
+        <option>IT</option>
+        <option>Mechanical</option>
+    </select>
+
+    <label>Courses</label>
+    <input type="checkbox" name="courses" value="HTML" />
+    <input type="checkbox" name="courses" value="JS" />
+    <input type="checkbox" name="courses" value="CSS" />
+
+    <label>Gender</label>
+
+    <input type="radio" name="gender" value="Male" />
+    <input type="radio" name="gender" value="Feale" />
+    <input type="radio" name="gender" value="Others" />
+
+    <label for="dob">DOB</label>
+    <input type="date" name="dob" id="dob">
+
+    <p id="PrintedValues"></p>
+
+
+    <button onclick="add()">Save</button>
+
+    <script src="front.js" defer></script>
+</body>
+</html>
