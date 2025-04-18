@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+   background: url("D:/web disgin/html & css/imges/images.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.register{
+    
+    width:400px;
+    margin: 150px auto;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 10px 20px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.register h1{
+    text-align: center;
+    color: rgb(208, 15, 15);
+}
+
+.textlabel
+{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.1em;
+    border:1px solid red;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(34, 209, 232);
+    font-size: 30px;
+    color: rgb(250, 242, 242);
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid blue ;  
+    box-shadow: 2px; 
+}
+
+.radio input{
+    accent-color: rgb(246, 65, 65) ;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
